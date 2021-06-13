@@ -26,5 +26,19 @@ var ele = document.getElementById("togglebtn");
   })
 
 
+// let thumb_slide = document.getElementById("myRange");
+// thumb_slide.addEventListener("input", function(e){
+//   console.log("sh");
+// })
 
   
+const range = document.getElementById('myRange');
+const rangeV = document.getElementById('range-value');
+let a = 0;
+  setValue = ()=>{
+    newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+      newPosition = 10 - (newValue * 0.2);
+    rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+  };
+document.addEventListener("DOMContentLoaded", setValue);
+range.addEventListener('input', setValue);
