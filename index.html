@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task by Pranjal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img id="imgprofile" src="assets/image/profile.png" alt="Profile Image">
+                <div class="greencolor"><img width="12px" src="assets/icons/circle-16.png" alt=""></div>
+            </div>
+
+            <ul class="list-unstyled components">
+
+                <li>
+                    <i style="font-size: 20px;" class="fas fa-home"></i>
+                    <a href="#">Homepage</a>
+                </li>
+
+
+                <li>
+                    <img src="assets/icons/configuration.png" alt="">
+                    <a href="#">System Configuration</a>
+                </li>
+
+
+                <li>
+                    <img src="assets/icons/Growth.png" alt="">
+                    <a href="#">Reliability Dashboard</a>
+                </li>
+
+                <li>
+                    <img src="assets/icons/Update.png" alt="">
+                    <a href="#">View/Update Data</a>
+                </li>
+
+
+
+                <div id="logout-section">
+                    <div id="sidebar-separation"></div>
+
+                    <li>
+                        <img id="logoutbtn" src="assets/icons/Logout.png" alt="">
+                        <a href="#">Logout</a>
+                    </li>
+                </div>
+
+            </ul>
+
+
+        </nav>
+
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <!-- Navbar Top Header -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <i class="arrow right" id="togglebtn"></i>
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class=" navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <img id="img-logo" src="assets/image/logo.png" alt="Site logo">
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main Content -->
+
+
+
+            <img id="main-image" src="assets/icons/configuration.png" alt="">
+            <div class="bar">
+                <p class="whitecircle oncyan"></p><span>New System Configure</span>
+                <p class="whitecircle oncyan"></p><span>Phase Definition</span>
+                <p class="whitecircle ongreen"></p><span>Extrinsic Factors Definition</span>
+                <p class="whitecircle"></p><span>Data Manager</span>
+                <p class="whitecircle"></p><span>Mission Reliability Estimation</span>
+            </div>
+
+
+
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+            </div>
+
+
+
+            <div class="maintext">Spare Wise Life Multiplier</div>
+
+
+            <div class="head1">
+                <h5>Platform Name - Talwar 1 | System Name - DA2</h5>
+            </div>
+
+
+            <div class="head2">
+                <p class="headbtn">Select PSF Criteria</p>
+                <p class="headbtn">Save</p>
+                <p class="headbtn">Next</p>
+            </div>
+
+            <div class="head-second">
+                <span>Equipment Level</span>
+                <p>PSF - Performance Shaping Factor</p>
+            </div>
+            <div class="head2"></div>
+
+
+
+
+            <hr class="line">
+
+
+
+            <div class="main-row1">
+
+                <div class="main-column1">
+
+
+
+                    <div class="in-row">
+
+
+                        <div class="in-column">
+                            <p class="btn-col1">Ship Mode</p>
+                            <span>Docked</span>
+                            <span>Docked</span>
+                            <span>Docked</span>
+                            <span>Cruise</span>
+                            <span>Cruise</span>
+                            <span>Cruise</span>
+                            <span>Attacked</span>
+                            <span>Attacked</span>
+                            <span>Attacked</span>
+                        </div>
+
+                        <div class="in-column adjustment1">
+                            <p class="btn-col1">Maintenance Policy</p>
+                            <span>Preventive</span>
+                            <span>Preventive</span>
+                            <span>Preventive</span>
+                            <span>Breakdown</span>
+                            <span>Preventive</span>
+                            <span>Breakdown</span>
+                            <span>Preventive</span>
+                            <span>Breakdown</span>
+                            <span>Preventive</span>
+                        </div>
+
+
+                        <div class="in-column">
+                            <p class="btn-col1">Criticality</p>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                            <span>Low</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="main-column3">
+
+                    <div class="in-row">
+
+
+                        
+                        <div class="in-column2">
+                            <!-- <p class="newbtn-col2">PSF - Available Time <i id="infoicon"
+                                class="fas fa-info-circle"></i></p> -->
+
+                            <button class="btn-col2">Nominal</button>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                        </div>
+
+                        <div class="in-column2 in-column3">
+                            <button class="btn-col2">Less Than Required</button>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+
+
+                        <div class="in-column2 in-column4">
+                            <button class="btn-col2">Higher Than Required</button>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+
+                        <div class="in-column2 in-column5">
+                            <button class="btn-col2">Very High Than Required</button>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="main-column2">
+
+                    <div class="in-row">
+
+
+
+
+                        <div class="in-column3 in-column6">
+                            <!-- <p class="btn-col1 adjustment2">PSF - Available Time <i id="infoicon"
+                                    class="fas fa-info-circle"></i></p> -->
+                            <button class="btn-col3">Nominal</button>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                            <span>100</span>
+                        </div>
+
+                        <div class="in-column3 in-column7">
+                            <button class="btn-col3 adjustment3">Low</button>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+
+
+                        <div class="in-column3 in-column7">
+                            <button class="btn-col3">Extreme</button>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>0</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/17b355bb2f.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
