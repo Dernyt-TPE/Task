@@ -415,20 +415,21 @@ a.article:hover {
     border-radius: 8px;
   }
 
-/* \Slider  end*/
+/*  \Slider end  */
+
+
 #range-value{
-    position: relative;
-   
+    position: relative; 
 }
 
 #range-value span{
     float: inline-end;
+
     
     margin-top: 4px;
     padding-top: 10px;
     font-size: 14px;
 
-    
     margin-top: 42px;
     position: absolute;
     
@@ -437,9 +438,9 @@ a.article:hover {
 
 #range-value::before{
     content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
 }
 
 
@@ -448,8 +449,8 @@ a.article:hover {
     display: inline-flex;
     float: inline-end;
     margin-top: -2px;
-     margin-inline-end: 60px;
-     font-size: 14px;
+    margin-inline-end: 60px;
+    font-size: 14px;
 }
 
 /* Heading Start from Platfrom Name */
@@ -458,7 +459,7 @@ a.article:hover {
     margin-top: 100px;
     display: inline-flex;
     float: inline-start;
-    padding-top: 10px;
+    padding-top: 4px;
     
      
 }
@@ -550,6 +551,7 @@ a.article:hover {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-inline-end: 8px;
 }
 
 .line{
@@ -573,12 +575,12 @@ a.article:hover {
 }
 
 .btn-col1{
-    
+    font-weight: 400;
     background-color: #068ee8;
     text-align: center;
     border-radius: 10px;
     color: white;
-    padding: 10px;
+    padding: 12px 10px;
     box-shadow:1.5px 1.5px 1px rgb(190, 190, 190);
     cursor: pointer;
     font-size: 14px;
@@ -605,14 +607,18 @@ a.article:hover {
 
 .in-column2{
     
+    
     flex-basis: 10%;
     margin-inline: 16px;
     margin-inline-start: 0px;
     padding: 0px 0px 10px 0px;
+
     
 }
 
 .in-column2 span{
+    
+    
     display: block;
     border: 1px solid #999;
     padding: 4px 26px !important;
@@ -622,9 +628,13 @@ a.article:hover {
     box-shadow:1.5px 1.5px 1px rgb(190, 190, 190);
     text-align: center;
     font-size: 14px;
+    color: red;
 }
 
-.newbtn-col2{
+#newbtn-col2{
+    font-weight: 400;
+    position: relative;
+    
     background-color: #068ee8;
     text-align: center;
     border-radius: 10px;
@@ -632,8 +642,14 @@ a.article:hover {
     box-shadow:1.5px 1.5px 1px rgb(190, 190, 190);
     cursor: pointer;
     font-size: 14px;
-    margin-top: -100px;
-    padding: 10px 80px;
+    margin-top: -61.8px;
+    padding: 12px 10px;
+    white-space: nowrap;
+    width: 588.1px;
+   line-height: 23.8px;
+    margin-bottom: 14.0px;
+    margin-right: -588.1px;
+    
     
     
 }
@@ -644,13 +660,16 @@ a.article:hover {
 } */
 
 #infoicon{
+    float: inline-end;
     font-size: 10px;
-    margin-top: -5px; float: inline-end;
     
+   
+    /* margin-right: 100px; */
 }
 
 
 .btn-col2{
+    
     text-align: center;
     border-radius: 6px;
     border: none;
@@ -710,6 +729,29 @@ a.article:hover {
 
 .in-column7 span{
     padding: 4px 34px;
+}
+
+#newbtn-col3{
+    
+    position: relative;
+    font-weight: 400;
+    background-color: #068ee8;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow:1.5px 1.5px 1px rgb(190, 190, 190);
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: -61.8px;
+    padding: 12px 10px;
+    white-space: nowrap;
+    width: 289.616px;
+   line-height: 23.8px;
+    margin-bottom: 14px;
+    margin-right: -289.616px;
+    
+    
+    
 }
 
 .btn-col3{
@@ -811,6 +853,7 @@ a.article:hover {
     #range-value span{
         display: none;
     }
+
 
     
 
